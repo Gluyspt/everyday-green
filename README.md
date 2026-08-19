@@ -80,6 +80,6 @@ For issues or questions, please file an issue in the `Issues` section of the rep
 
 Thank you for exploring everyday-green!
 
-Credits
+## Credits
 
-This project is an adaptation of dante4rt/automated-commit. Big thanks to the original author for the base workflow — this version builds on it by adding randomized commit counts and weekly activity spikes.
+This project is an adaptation of [dante4rt/automated-commit](https://github.com/dante4rt/automated-commit). Big thanks to the original author for the base workflow — this version builds on it by adding randomized commit counts and weekly activity spikes.
