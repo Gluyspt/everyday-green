@@ -50,7 +50,7 @@ The workflow is defined in `.github/workflows/master.yml` and includes:
 Before using the workflow, update it with your own GitHub email and username:
 
 1. Open `.github/workflows/master.yml` in your repository.
-2. In the `Setup Git Configuration` step, replace the email and username with your own.
+2. In the `Setup Git Configuration` step, replace the email and username with your own. (line 23-24)
 3. Commit your changes.
 
 You can also tune the behavior to your liking:
