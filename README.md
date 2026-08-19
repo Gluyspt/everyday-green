@@ -1,5 +1,7 @@
 # everyday-green
 
+> Keep your GitHub stats green, every day — automatically.
+
 This repository contains a GitHub Actions workflow that automatically updates a file named `TIMESTAMP.txt` and commits the change on a randomized schedule. Instead of committing the exact same number of times every day, the workflow varies how many commits it makes — and roughly once a week, it spikes to a much higher number — so your contribution graph looks more natural instead of flat and identical.
 
 ## Overview
