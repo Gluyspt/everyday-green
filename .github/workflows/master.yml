@@ -20,8 +20,8 @@ jobs:
           fetch-depth: 0
       - name: Setup Git Configuration
         run: |
-          git config user.email "gluyspt1221@gmail.com"
-          git config user.name "Gluyspt"
+          git config user.email "sample@gmail.com"
+          git config user.name "Sample"
       - name: Random Multi-Commit
         run: |
           commit_messages=("Update: ⏰" "Refresh: 🔄" "Renew: 🌟" "Revise: 📝" "Amend: 🛠" "Adjust: 🔧" "Change: 📈" "Modify: 🖊" "Transform: 🌀" "Revamp: 🌈")
