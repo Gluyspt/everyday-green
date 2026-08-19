@@ -50,7 +50,7 @@ The workflow is defined in `.github/workflows/master.yml` and includes:
 Before using the workflow, update it with your own GitHub email and username:
 
 1. Open `.github/workflows/master.yml` in your repository.
-2. In the `Setup Git Configuration` step, replace the email and username with your own. (line 23-24)
+2. In the `Setup Git Configuration` step, replace the email and username with your own.
 3. Commit your changes.
 
 You can also tune the behavior to your liking:
@@ -69,6 +69,22 @@ You can also tune the behavior to your liking:
 1. Go to the `Actions` tab of your repository.
 2. Select the `Automated Commit` workflow.
 3. Click `Run workflow`, select `master`, then click `Run workflow` again.
+
+## Using with a Private Repository
+
+This workflow works fine on private repositories, but there's one extra setting to check:
+
+- By default, commits to a private repo **do not** show up as green squares on your public contribution graph.
+- To fix this, go to your GitHub profile → **Edit profile** → **Contribution settings**, and check **"Include private contributions on my profile"**.
+- Without this enabled, the graph won't reflect any activity from a private repo — which defeats the purpose of this project.
+
+## Using a Private Repository
+
+This workflow works the same on private repositories. There's one extra setting to check, though: commits to a private repo only show up as green squares on your public contribution graph if you've enabled that visibility option — otherwise the activity is invisible to anyone viewing your profile.
+
+1. Go to your GitHub profile and click "Edit profile".
+2. Under "Contribution settings", check the box for "Private contributions".
+3. Without this enabled, commits from a private repo won't appear on your graph at all.
 
 ## Contributing
 
